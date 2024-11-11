@@ -77,6 +77,6 @@ with gr.Blocks(theme=gr.themes.Citrus()) as demo:
     3. Consultez l'onglet 'Analyse des Caractéristiques' pour comprendre les facteurs clés
     4. L'analyse inclut les rendements par environnement et l'influence des caractéristiques
     """)
-
+print("running")
 # Launch application
-demo.launch(share=True)
+demo.launch()

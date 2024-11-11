@@ -7,3 +7,4 @@ shap
 pandas
 matplotlib
 numpy
+plotly
