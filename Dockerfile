@@ -26,7 +26,7 @@ RUN useradd -m myuser
 USER myuser
 
 # Expose the specified port
-EXPOSE 7860
+EXPOSE 8080
 
 # Set the default command to run the app
 CMD ["python", "main.py"]
